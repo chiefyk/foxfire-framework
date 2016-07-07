@@ -1,0 +1,35 @@
+{
+  "name": "foxfire-framework",
+  "version": "0.0.1",
+  "description": "Foxfire: An e-learning framework for building SCORM courses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "expand-scorm": "gulp publish",
+    "expand-server": "ws"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiefyk/foxfire-framework.git"
+  },
+  "keywords": [
+    "e-learning",
+    "framework",
+    "SCORM",
+    "course",
+    "module",
+    "elearning"
+  ],
+  "author": "Gary Kenyon <gary.kenyon@dynamicbusiness.co.uk> (http://dynamicbusiness.co.uk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiefyk/foxfire-framework/issues"
+  },
+  "homepage": "https://github.com/chiefyk/foxfire-framework#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-scorm-manifest": "^0.6.4",
+    "gulp-zip": "^3.2.0",
+    "local-web-server": "^1.2.1"
+  }
+}

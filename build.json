@@ -1,0 +1,14 @@
+{
+    "course": {
+        "title": "Example Course",
+        "description": "An example course, built using the Foxfire Framework.",
+        "authors": "Gary Kenyon",
+        "version": "0.0.1",
+        "build": "001"
+    },
+    "scorm": true,
+    "pages":[
+        {"page":"page1"},
+        {"page":"page2"}
+    ]
+}
